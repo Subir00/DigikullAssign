@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Application Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="testbox">
+        <form action="/">
+            <div class="banner">
+                <h1>Application To Date My Daughter</h1>
+            </div>
+            <div class="item">
+                <p>Name</p>
+                <div class="name-item">
+                    <input type="text" name="First" placeholder="First" />
+                    <input type="text" name="Last" placeholder="Last" />
+                </div>
+            </div>
+            <div class="item">
+                <p>Email</p>
+                <input type="email" name="Email" required/>
+            </div>
+            <div class="item">
+                <p>Phone Number</p>
+                <input type="tel" name="Ph-No." pattern="[0 - 9]{10} pl" placeholder="Enter 10 digit phone number" required/>
+            </div>
+            <div class="question">
+                <p>Gender</p>
+                <div class="question-answer">
+                    <input type="radio" value="none" id="radio_1" name="Gender" />
+                    <label for="radio_1" class="radio"><span>Male</span></label>
+                    <input type="radio" value="none" id="radio_2" name="driving" />
+                    <label for="radio_2" class="radio"><span>Female</span></label>
+                </div>
+            </div>
+            <div class="item">
+                <p>Date of proposed outing</p>
+                <input type="date" name="date" required/>
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="question">
+                <p>Check all that apply to you :</p>
+            </div>
+            <div class="question">
+                <div class="question-answer">
+                    <input type="radio" value="1" id="radio_3" name="study" />
+                    <label for="radio_3" class="radio"><span>I have Tattoos and/or piercings</span></label>
+                </div>
+            </div>
+            <div class="question">
+                <div class="question-answer">
+                    <input type="radio" value="1" id="single" name="status" />
+                    <label for="single" class="radio"><span>I am more than 2 years older than my daughter</span></label>
+                </div>
+            </div>
+            <div class="question">
+                <div class="question-answer">
+                    <input type="radio" value="1" id="single" name="status" />
+                    <label for="single" class="radio"><span>I own a panel van or Ferrari</span></label>
+                </div>
+            </div>
+            <div class="question">
+                <div class="question-answer">
+                    <input type="radio" value="1" id="single" name="status" />
+                    <label for="single" class="radio"><span>I work full-time</span></label>
+                </div>
+            </div>
+            <div class="question">
+                <div class="question-answer">
+                    <input type="radio" value="1" id="single" name="status" />
+                    <label for="single" class="radio"><span>My parents are rich</span></label>
+                </div>
+            </div>
+            <div class="question">
+                <p>Is the date at a private/public location</p>
+                <div class="question-answer">
+                    <input type="radio" value="none" id="radio_5" name="smoke" />
+                    <label for="radio_5" class="radio"><span>Private</span></label>
+                    <input type="radio" value="none" id="radio_6" name="smoke" />
+                    <label for="radio_6" class="radio"><span>Public</span></label>
+                </div>
+            </div>
+            <div class="item">
+                <p>Education level completed</p>
+                <textarea rows="3"></textarea>
+            </div>
+            <div class="item">
+                <p>Why do you want to date my daughter?</p>
+                <textarea rows="5" cols="10" maxlength="500"></textarea>
+            </div>
+            <div class="item">
+                <P>Please upload the bank statement</P>
+                <input type="file" id="myfile" name="myfile" multiple><br><br>
+            </div>
+            <div class="question">
+                <p>Contact me</p>
+                <a href="mailto: subirbam2013@gmail.com">Mail me</a>
+            </div>
+            <div class="btn-block">
+                <button type="submit" href="/">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
